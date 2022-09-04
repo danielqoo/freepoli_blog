@@ -43,7 +43,7 @@ function Testimonials() {
   return (
     <section id="testimonials">
       <div className="container">
-        <Pagetitle title="Clients & Review" />
+        <Pagetitle title="프리폴리 팀과 인연이 닿았던 분들의 리뷰" />
         <Slider {...slidetSettings} className="testimonials-wrapper">
           {sliderData.map((slider) => (
             <Testimonial key={slider.id} slider={slider} />

@@ -26,7 +26,16 @@ function Header3({ light, logoSource, bootstrapNav }) {
     >
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
-          <Logo logoSource={logoSource} bootstrapNav={bootstrapNav} />
+        <Link
+          activeClass="active"
+          className="nav-link"
+          to="section-home"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+        <Logo logoSource={logoSource} bootstrapNav={bootstrapNav}/>
+        </Link>
           <button
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
@@ -52,24 +61,12 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="section-home"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  className="nav-link"
                   to="section-about"
                   spy={true}
                   smooth={true}
                   duration={500}
                 >
-                  About
+                  소개
                 </Link>
               </li>
               <li className="nav-item">
@@ -81,7 +78,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  Service
+                  미션
                 </Link>
               </li>
               <li className="nav-item">
@@ -93,7 +90,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  Experience
+                  기록
                 </Link>
               </li>
               <li className="nav-item">
@@ -105,10 +102,10 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  Works
+                  성과
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   activeClass="active"
                   className="nav-link"
@@ -119,7 +116,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 >
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   activeClass="active"
@@ -129,7 +126,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  Contact
+                  문의·연락
                 </Link>
               </li>
             </ul>

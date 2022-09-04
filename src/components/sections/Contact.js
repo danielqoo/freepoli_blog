@@ -17,19 +17,19 @@ function Contact() {
     event.preventDefault();
     if (!formdata.name) {
       setError(true);
-      setMessage("Name is required");
+      setMessage("이름 혹은 닉네임을 적어주세요.");
     } else if (!formdata.email) {
       setError(true);
-      setMessage("Email is required");
+      setMessage("이메일 주소를 적어주세요.");
     } else if (!formdata.subject) {
       setError(true);
-      setMessage("Subject is required");
+      setMessage("제목을 적어주세요.");
     } else if (!formdata.message) {
       setError(true);
-      setMessage("Message is required");
+      setMessage("내용을 적어주세요.");
     } else {
       setError(false);
-      setMessage("You message has been sent!!!");
+      setMessage("📧 메일이 정상적으로 전송되었습니다.");
     }
   };
 
@@ -53,7 +53,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <Pagetitle title="Get in Touch" />
+        <Pagetitle title="건강한 자신감, 함께 만드는 선한 영향력" />
 
         <div className="row">
           <div className="col-md-4">
@@ -63,7 +63,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>Let's talk about everything!</h3>
+                <h3>프리폴리 팀으로의 합류 여행 ✈</h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
@@ -71,8 +71,8 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  Don't like forms? Send me an{" "}
-                  <a href="mailto:name@example.com">email</a>. 👋
+                  폼 양식이 마음이 들지 않나요? 직접{" "}
+                  <a href="mailto:biz@freepoli.com" target={{target:"_blank"}}>email</a>로 보내주셔도 됩니다. 👋
                 </p>
               </ScrollAnimation>
             </div>
@@ -92,7 +92,7 @@ function Contact() {
                       className="form-control"
                       name="name"
                       id="InputName"
-                      placeholder="Your name"
+                      placeholder="이름 혹은 닉네임"
                       onChange={handleChange}
                       value={formdata.name}
                     />
@@ -106,7 +106,7 @@ function Contact() {
                       className="form-control"
                       id="InputEmail"
                       name="email"
-                      placeholder="Email address"
+                      placeholder="이메일 주소"
                       onChange={handleChange}
                       value={formdata.email}
                     />
@@ -120,7 +120,7 @@ function Contact() {
                       className="form-control"
                       id="InputSubject"
                       name="subject"
-                      placeholder="Subject"
+                      placeholder="제목"
                       onChange={handleChange}
                       value={formdata.subject}
                     />
@@ -134,7 +134,7 @@ function Contact() {
                       id="InputMessage"
                       className="form-control"
                       rows="5"
-                      placeholder="Message"
+                      placeholder="내용"
                       onChange={handleChange}
                       value={formdata.message}
                     ></textarea>
@@ -148,7 +148,7 @@ function Contact() {
                 value="Submit"
                 className="btn btn-default"
               >
-                Send Message
+                보내기
               </button>
             </form>
             {handleAlerts()}

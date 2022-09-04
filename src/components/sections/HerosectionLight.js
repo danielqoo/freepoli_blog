@@ -19,14 +19,14 @@ function Herosection(props) {
         <div className="intro">
           <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">프리폴리(FREEPOLI)</h1>
           <p>
-            I'm a{" "}
+            We're {" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "UI/UX designers ",
+                "Front-End developers",
+                "Photography lovers",
               ]}
               typeSpeed={80}
               backSpeed={40}

@@ -5,10 +5,10 @@ import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
-  name: "Bolby",
-  avatarImage: "/images/avatar-2.svg",
+  name: "프리폴리(FREEPOLI)",
+  avatarImage: "/images/thinking-face.svg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "We are FREEPOLI., web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
 };
 
 const progressData = [
@@ -63,7 +63,7 @@ function About() {
   return (
     <section id="about">
       <div className="container">
-        <Pagetitle title="About Me" />
+        <Pagetitle title="프리폴리를 만들고 있는 사람들" />
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left">

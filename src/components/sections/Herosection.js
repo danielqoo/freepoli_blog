@@ -24,50 +24,47 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          <img src="images/thinking-face.svg" alt="face_001" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">프리폴리 (FREEPOLI)</h1>
           <p>
-            I'm a{" "}
+            우리에겐&nbsp;
             <Typed
-              strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
-              ]}
-              typeSpeed={80}
+              strings={['마음껏 실수하고, 새롭게 상상할 용기가',
+                        '나의 취향과, 당신의 취향에 대한 존중이',
+                        '소란스런 세상 속에, 소신있는 소통이',
+                      ]}
+              typeSpeed={70}
               backSpeed={40}
-              attr="value"
               loop
-            >
-              <label value></label>
-            </Typed>
+            />
+            &nbsp;필요해.
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-instagram"></i>
+                <i className="xi-home"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-twitter"></i>
+                <i className="xi-kakaotalk"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-behance"></i>
+                <i className="xi-instagram"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-dribbble"></i>
+                <i className="xi-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+                <i className="xi-naver"></i>
               </a>
             </li>
           </ul>
@@ -80,7 +77,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              Hire me
+              참여하기
             </Link>
           </div>
         </div>

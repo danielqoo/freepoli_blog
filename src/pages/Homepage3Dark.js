@@ -18,7 +18,7 @@ function Homepage3() {
   document.body.classList.add("dark");
   return (
     <>
-      <Header3 logoSource="/images/logo.svg" />
+      <Header3 logoSource="/images/face_logo.png" />
       <main className="content-3">
         <Element name="section-home">
           <ReactCursorPosition>
@@ -31,14 +31,14 @@ function Homepage3() {
         <Element name="section-services">
           <Services />
         </Element>
+        <Element name="section-pricing">
+          <Pricing />
+        </Element>
         <Element name="section-experiences">
           <Experiences />
         </Element>
         <Element name="section-works">
           <Works />
-        </Element>
-        <Element name="section-pricing">
-          <Pricing />
         </Element>
         <Element name="section-testimoninal">
           <Testimonials />
@@ -46,9 +46,9 @@ function Homepage3() {
         <Element name="section-brandlogos">
           <BrandlogosDark />
         </Element>
-        <Element name="section-blogs">
+        {/* <Element name="section-blogs">
           <Blogs />
-        </Element>
+        </Element> */}
         <Element name="section-contact">
           <Contact />
         </Element>

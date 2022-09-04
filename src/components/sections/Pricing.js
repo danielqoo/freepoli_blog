@@ -57,7 +57,7 @@ function Pricing() {
   return (
     <section id="prices">
       <div className="container">
-        <Pagetitle title="Pricing Plans" />
+        <Pagetitle title="프리폴리 팀이 일하는 방식" />
         <div className="row align-items-center">
           {priceboxData.map((pricebox) => (
             <div key={pricebox.id} className="col-md-4">

@@ -37,28 +37,13 @@ function Services() {
   return (
     <section id="services">
       <div className="container">
-        <Pagetitle title="Services" />
+        <Pagetitle title="팀 미션" />
         <div className="row fix-spacing">
           {servicesData.map((service) => (
             <div className="col-md-4" key={service.id}>
               <Service service={service} />
             </div>
           ))}
-        </div>
-        <div className="mt-5 text-center">
-          <p className="mb-0">
-            Looking for a custom job?{" "}
-            <Link
-              className="colorpink pointer"
-              to="section-contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              Click here
-            </Link>{" "}
-            to contact me! 👋
-          </p>
         </div>
       </div>
     </section>

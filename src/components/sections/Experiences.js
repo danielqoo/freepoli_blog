@@ -54,7 +54,7 @@ function Experiences() {
   return (
     <section id="experience">
       <div className="container">
-        <Pagetitle title="Experience" />
+        <Pagetitle title="팀 빌딩 과정" />
         <div className="row">
           <div className="col-md-6">
             <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">

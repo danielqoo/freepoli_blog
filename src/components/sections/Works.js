@@ -2,27 +2,28 @@ import React, { useState, useEffect } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Portfolio from "../elements/Portfolio";
+import { Link } from "react-scroll";
 
 const filters = [
   {
     id: 1,
-    text: "Everything",
+    text: "모두 보기",
   },
   {
     id: 2,
-    text: "creative",
+    text: "문서",
   },
   {
     id: 3,
-    text: "art",
+    text: "사진",
   },
   {
     id: 4,
-    text: "design",
+    text: "영상",
   },
   {
     id: 5,
-    text: "branding",
+    text: "관련 사이트",
   },
 ];
 
@@ -30,14 +31,14 @@ const allData = [
   {
     id: 1,
     title: "Project Managment Illustration",
-    category: "art",
+    category: "사진",
     image: "images/works/1.svg",
     popupLink: ["images/works/1.svg"],
   },
   {
     id: 2,
     title: "Guest App Walkthrough Screens",
-    category: "creative",
+    category: "사진",
     image: "images/works/2.svg",
     popupLink: [
       "images/works/2.svg",
@@ -48,14 +49,14 @@ const allData = [
   {
     id: 3,
     title: "Delivery App Wireframe",
-    category: "branding",
+    category: "영상",
     image: "images/works/3.svg",
     popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
   },
   {
     id: 4,
     title: "Onboarding Motivation",
-    category: "creative",
+    category: "영상",
     image: "images/works/4.svg",
     popupLink: [
       "https://www.youtube.com/watch?v=URVHRhBSjj8",
@@ -65,63 +66,63 @@ const allData = [
   {
     id: 5,
     title: "iMac Mockup Design",
-    category: "art",
+    category: "문서",
     image: "images/works/5.svg",
     popupLink: ["images/works/5.svg"],
   },
   {
     id: 6,
     title: "Game Store App Concept",
-    category: "design",
+    category: "관련 사이트",
     image: "images/works/6.svg",
     link: "https://dribbble.com",
   },
   {
     id: 7,
     title: "Project Managment Illustration",
-    category: "art",
+    category: "관련 사이트",
     image: "images/works/3.svg",
     link: "https://pinterest.com",
   },
   {
     id: 8,
     title: "Guest App Walkthrough Screens",
-    category: "design",
+    category: "문서",
     image: "images/works/1.svg",
     popupLink: ["images/works/1.svg"],
   },
   {
     id: 9,
     title: "Delivery App Wireframe",
-    category: "branding",
+    category: "문서",
     image: "images/works/4.svg",
     popupLink: ["images/works/4.svg"],
   },
   {
     id: 10,
     title: "Game Store App Concept",
-    category: "design",
+    category: "관련 사이트",
     image: "images/works/6.svg",
     link: "https://dribbble.com",
   },
   {
     id: 11,
     title: "Project Managment Illustration",
-    category: "art",
+    category: "관련 사이트",
     image: "images/works/3.svg",
     link: "https://pinterest.com",
   },
   {
     id: 12,
     title: "Guest App Walkthrough Screens",
-    category: "design",
+    category: "사진",
     image: "images/works/1.svg",
     popupLink: ["images/works/1.svg"],
   },
   {
     id: 13,
     title: "Delivery App Wireframe",
-    category: "branding",
+    category: "사진",
     image: "images/works/4.svg",
     popupLink: ["images/works/4.svg"],
   },
@@ -179,7 +180,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Recent Works" />
+        <Pagetitle title="프로젝트 성과물" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
@@ -222,14 +223,31 @@ function Works() {
             disabled={noMorePost ? "disabled" : null}
           >
             {noMorePost ? (
-              "No more items"
+              "더 이상 항목이 없습니다"
             ) : (
               <span>
-                <i className="fas fa-spinner"></i> Load more
+                <i className="fas fa-spinner"></i> 더 보기
               </span>
             )}
           </button>
         </div>
+
+        <div className="mt-5 text-center">
+          <p className="mb-0">
+            더 상세한 정보를 원하시면{" "}
+            <Link
+              className="colorpink pointer"
+              to="section-contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              email
+            </Link>{"로 "}
+            언제든지 연락주세요! 👋
+          </p>
+        </div>
+
       </div>
     </section>
   );
