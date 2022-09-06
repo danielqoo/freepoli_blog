@@ -42,29 +42,30 @@ function Herosection(props) {
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">
+
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="xi-home"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
+              <a href="!#" target={{target:"_blank"}}>
                 <i className="xi-kakaotalk"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="!#" target={{target:"_blank"}}>
                 <i className="xi-instagram"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="!#" target={{target:"_blank"}}>
                 <i className="xi-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="!#" target={{target:"_blank"}}>
                 <i className="xi-naver"></i>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://srt.seoul.kr/" target={{target:"_blank"}}>
+                <i className="xi-home"></i>
               </a>
             </li>
           </ul>
@@ -90,7 +91,7 @@ function Herosection(props) {
             duration={500}
             className="mouse-wrapper"
           >
-            <span>Scroll Down</span>
+            <span>스크롤 내리기</span>
             <span className="mouse">
               <span className="wheel"></span>
             </span>

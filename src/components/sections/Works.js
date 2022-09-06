@@ -244,7 +244,7 @@ function Works() {
             >
               email
             </Link>{"로 "}
-            언제든지 연락주세요! 👋
+            언제든지 연락주세요! <img alt="robot" src="/images/waving-hand-emoji.svg" resizeMode="stretch" style={{width:'3.2%'}}/>
           </p>
         </div>
 

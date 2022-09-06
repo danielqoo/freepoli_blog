@@ -44,11 +44,11 @@ function BlogDetails(props) {
   return (
     <>
       <Header
-        logoSource="/images/logo.svg"
+        logoSource="/images/face_logo.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
-      <main className={toggleMenu ? "content open" : "content"}>
+      <main className={toggleMenu ? "content-3 open" : "content-3"}>
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section">
           <div className="container">

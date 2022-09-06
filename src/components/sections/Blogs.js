@@ -6,30 +6,12 @@ import Pagetitle from "../elements/Pagetitle";
 const allBlogs = [
   {
     id: 1,
-    title: "5 Best App Development Tool for Your Project",
-    image: "images/blog/1.svg",
+    title: "함께할 동료를 구합니다",
+    image: "images/blog/we_need_a_designer.png",
     filesource: "../../blogs/best-app-development-tool.md",
-    date: "09 February, 2020",
-    author: "Bolby",
-    category: "Reviews",
-  },
-  {
-    id: 2,
-    title: "Common Misconceptions About Payment",
-    image: "images/blog/2.svg",
-    filesource: "../../blogs/common-misconceptions-about-payment.md",
-    date: "07 February, 2020",
-    author: "Bolby",
-    category: "Tutorial",
-  },
-  {
-    id: 3,
-    title: "3 Things To Know About Startup Business",
-    image: "images/blog/3.svg",
-    filesource: "../../blogs/things-to-know-about-startup-business.md",
-    date: "06 February, 2020",
-    author: "Bolby",
-    category: "Business",
+    date: "2022.09.10",
+    author: "프리폴리(FREEPOLI)",
+    category: "함께해요",
   },
 ];
 
@@ -37,7 +19,7 @@ function Blogs() {
   return (
     <section id="blog">
       <div className="container">
-        <Pagetitle title="Latest Posts" />
+        <Pagetitle title="프로폴리 팀 소식" />
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
             <div className="col-md-4" key={blogItem.id}>
@@ -45,12 +27,12 @@ function Blogs() {
             </div>
           ))}
         </div>
-        <div className="text-center">
+        {/* <div className="text-center">
           <div className="spacer" data-height="30"></div>
           <Link to="/blogs" className="btn btn-default">
-            Show all blogs
+            더 보기
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

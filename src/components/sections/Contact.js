@@ -63,7 +63,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>프리폴리 팀으로의 합류 여행 ✈</h3>
+                <h3>프리폴리 팀으로의 합류 여행 <img alt="robot" src="/images/airplane-emoji.svg" resizeMode="stretch" style={{width:'10%'}}/></h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
@@ -72,7 +72,7 @@ function Contact() {
               >
                 <p>
                   폼 양식이 마음이 들지 않나요? 직접{" "}
-                  <a href="mailto:biz@freepoli.com" target={{target:"_blank"}}>email</a>로 보내주셔도 됩니다. 👋
+                  <a href="mailto:biz@freepoli.com" target={{target:"_blank"}}>email</a>로 보내주셔도 됩니다. <img alt="robot" src="/images/waving-hand-emoji.svg" resizeMode="stretch" style={{width:'10%'}}/>
                 </p>
               </ScrollAnimation>
             </div>
