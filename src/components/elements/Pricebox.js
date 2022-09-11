@@ -16,13 +16,13 @@ function Pricebox({ priceboxItem }) {
       {content.map((singleContent) => (
         <p key={singleContent.id}>{singleContent.text}</p>
       ))}
-      <h3 className="price">
-        <em>$</em>
-        {price}
-        <span>Month</span>
-      </h3>
-      <a href="!#" className="btn btn-default">
-        Get Started
+      
+      <a href="https://srt.seoul.kr/" className="btn btn-default" target="_blank" rel="noreferrer">
+        <h3 className="price">
+          <span>중요도 </span>
+          {price}
+          <em>%</em>
+        </h3>
       </a>
     </div>
   );

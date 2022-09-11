@@ -5,20 +5,20 @@ import Header3 from "../components/layouts/Header3";
 import Footer from "../components/layouts/Footer";
 import About from "../components/sections/About";
 import Blogs from "../components/sections/Blogs";
-import BrandlogosDark from "../components/sections/BrandlogosDark";
+// import BrandlogosDark from "../components/sections/BrandlogosDark";
 import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
 import Pricing from "../components/sections/Pricing";
 import Services from "../components/sections/Services";
-import Testimonials from "../components/sections/Testimonials";
+// import Testimonials from "../components/sections/Testimonials";
 import Works from "../components/sections/Works";
 
 function Homepage3() {
   document.body.classList.add("dark");
   return (
     <>
-      <Header3 logoSource="/images/face_logo.png" />
+      <Header3 logoSource="/images/freepoli_logo_white.png" />
       <main className="content-3">
         <Element name="section-home">
           <ReactCursorPosition>
@@ -43,12 +43,12 @@ function Homepage3() {
         <Element name="section-works">
           <Works />
         </Element>
-        <Element name="section-testimoninal">
+        {/* <Element name="section-testimoninal">
           <Testimonials />
         </Element>
         <Element name="section-brandlogos">
           <BrandlogosDark />
-        </Element>
+        </Element> */}
         <Element name="section-contact">
           <Contact />
         </Element>

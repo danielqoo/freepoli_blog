@@ -1,6 +1,6 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
-import Counter from "../elements/Counter";
+// import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
@@ -44,7 +44,7 @@ const progressData1 = [
   {
     id: 3,
     title: "설득력, 커뮤니케이션 능력",
-    percantage: 70,
+    percantage: 75,
     progressColor: "#6C6CE5",
   },
 ];
@@ -64,8 +64,8 @@ const progressData2 = [
   },
   {
     id: 3,
-    title: "데이터 기반 의사결정력 (Pandas, Tensorflow, Excel)",
-    percantage: 75,
+    title: "데이터 분석 (Pandas, Tensorflow, Excel)",
+    percantage: 70,
     progressColor: "#6C6CE5",
   },
 ];

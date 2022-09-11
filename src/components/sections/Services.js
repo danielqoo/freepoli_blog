@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Service from "../elements/Service";
 
@@ -7,9 +7,9 @@ const servicesData = [
   {
     id: 1,
     icon: "images/speaker-high-volume.svg",
-    title: "정치적 자아 • 나만의 이슈 찾기",
+    title: "정치적 취향 • 나만의 이슈 찾기",
     content:
-      "청년들이 자신의 정치적 자아(자기효능감)와 나만의 이슈를 탐색하여 스스로 선택 • 발언(정치적 기술, 비판•심의)할 수 있는 공론장",
+      "청년들이 자신의 정치적 취향(자기효능감)와 나만의 이슈를 탐색하여 스스로 선택 • 발언(정치적 기술, 비판•심의)할 수 있는 공론장",
     color: "#6C6CE5",
     contentColor: "light",
   },
