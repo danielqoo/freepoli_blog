@@ -3,6 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Portfolio from "../elements/Portfolio";
 import { Link } from "react-scroll";
+import Iframe from 'react-iframe'
 
 const filters = [
   {
@@ -197,7 +198,16 @@ function Works() {
             언제든지 연락주세요! <img alt="robot" src="/images/waving-hand-emoji.svg" resizeMode="stretch" style={{width:'3.2%'}}/>
           </p>
         </div>
-
+        <div className="mt-5 text-center">
+          <p className="mb-0">
+            <Iframe url="https://padlet.com/embed/343ona3ekdru9lon"
+              width="100%"
+              height="400px"
+              position="relative"
+              scrolling="no"
+            />
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -18,7 +18,7 @@ function Homepage3() {
   document.body.classList.add("dark");
   return (
     <>
-      <Header3 logoSource="/images/freepoli_logo_white.png" />
+      <Header3 logoSource="/images/face_logo.png" />
       <main className="content-3">
         <Element name="section-home">
           <ReactCursorPosition>
