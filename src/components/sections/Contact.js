@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
-import Iframe from 'react-iframe'
 
 function Contact() {
   const [formdata, setFormdata] = useState({

@@ -7,9 +7,9 @@ const allBlogs = [
   {
     id: 1,
     title: "함께할 동료를 구합니다",
-    image: "images/blog/1.svg",
-    filesource: "../../blogs/best-app-development-tool.md",
-    date: "2022.09.10",
+    image: "images/blog/we_need_a_designer.svg",
+    filesource: "../../blogs/we_need_a_designer.md",
+    date: "2022.09.15",
     author: "프리폴리(FREEPOLI)",
     category: "함께해요",
   },

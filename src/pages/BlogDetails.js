@@ -18,9 +18,9 @@ function BlogDetails(props) {
       });
   }, [content, blogFile]);
 
-  const disqusShortname = "bolby"; //found in your Disqus.com dashboard
+  const disqusShortname = "freepoli"; //found in your Disqus.com dashboard
   const disqusConfig = {
-    url: "https://jthemes.net/themes/react/bolby", //Homepage link of this site.
+    url: "https://danielqoo.github.io", //Homepage link of this site.
     identifier: blogId,
     title: blogFile,
   };
