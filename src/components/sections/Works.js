@@ -204,7 +204,6 @@ function Works() {
               width="100%"
               height="400px"
               position="relative"
-              scrolling="no"
             />
           </p>
         </div>
