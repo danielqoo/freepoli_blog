@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   const [formdata, setFormdata] = useState({
@@ -15,6 +16,7 @@ function Contact() {
 
   const submitHandler = (event) => {
     event.preventDefault();
+
     if (!formdata.name) {
       setError(true);
       setMessage("이름 혹은 닉네임을 적어주세요.");
@@ -31,6 +33,11 @@ function Contact() {
       setError(false);
       setMessage("📧 메일이 정상적으로 전송되었습니다.");
     }
+
+    console.log(formdata)
+
+    emailjs.send('service_n7mctmh', 'template_err733v', formdata, '8mttHzFeLTQjuoAZI');
+
   };
 
   const handleChange = (event) => {
