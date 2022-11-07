@@ -44,7 +44,7 @@ const progressData1 = [
   {
     id: 3,
     title: "설득력, 커뮤니케이션 능력",
-    percantage: 75,
+    percantage: 80,
     progressColor: "#6C6CE5",
   },
 ];
