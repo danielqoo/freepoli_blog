@@ -32,13 +32,13 @@ const progressData1 = [
   {
     id: 1,
     title: "기획력, 창의성",
-    percantage: 85,
+    percantage: 95,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
     title: "통찰력(예측력), 영업력(정보력)",
-    percantage: 95,
+    percantage: 85,
     progressColor: "#FF4C60",
   },
   {
@@ -52,22 +52,23 @@ const progressData1 = [
 const progressData2 = [
   {
     id: 1,
-    title: "웹 개발 능력 (Python, React, jQuery, NginX, AWS)",
+    title: "웹 개발 능력 (Python, JS, React, jQuery, NginX, AWS)",
     percantage: 80,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "경영 관리 능력 (회계, 인사, 총무)",
-    percantage: 90,
-    progressColor: "#FF4C60",
-  },
-  {
-    id: 3,
     title: "데이터 분석 (Pandas, Tensorflow, Excel)",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
+  {
+    id: 3,
+    title: "경영 관리 능력 (회계, 인사, 총무)",
+    percantage: 70,
+    progressColor: "#FF4C60",
+  },
+
 ];
 
 // const counterData = [

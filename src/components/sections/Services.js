@@ -18,16 +18,16 @@ const servicesData = [
     icon: "images/party-popper.svg",
     title: "놀이와 활동 중심의 커뮤니티",
     content:
-      "자유로우면서도 안전한 환경에서 편안하게 정치를 이야기하고, 일상에서 놀이와 활동으로 즐길 수 있는 콘텐츠가 있는 정치 살롱",
+      "자유로우면서도 안전한 환경에서 편안하게 이야기하고, 일상에서 놀이와 활동으로 즐길 수 있는 살롱",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
     icon: "images/add-user-group-woman-man.svg",
-    title: "합리적인 가격과 참여가 쉬운 느슨한 연대감",
+    title: "합리적인 가격과 느슨한 연대감",
     content:
-      "관심사 기반, 지역 중심의 소규모 모임 활동으로 다양한 정치•사회 이슈들에 대한 담론이 살아있어 청년이 스스로 만들어가는 그룹",
+      "관심사 기반, 지역 중심의 소규모 모임 활동으로 다양한 이슈들에 대한 담론이 살아있어 청년이 스스로 만들어가는 그룹",
     color: "#F97B8B",
     contentColor: "light",
   },
