@@ -44,12 +44,12 @@ function Herosection(props) {
           <ul className="social-icons light list-inline mb-0 mt-4">
 
             <li className="list-inline-item">
-              <a href="!#" target={{target:"_blank"}}>
+              <a href="http://qr.kakao.com/talk/X24Wk3Z53RVEseHk0IYIDnnqpBU-" target={{target:"_blank"}}>
                 <i className="xi-kakaotalk"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#" target={{target:"_blank"}}>
+              <a href="https://www.instagram.com/srt__crew/" target={{target:"_blank"}}>
                 <i className="xi-instagram"></i>
               </a>
             </li>
@@ -78,7 +78,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              참여하기
+              팀 프리폴리에게 연락하기
             </Link>
           </div>
         </div>
