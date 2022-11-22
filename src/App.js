@@ -8,13 +8,13 @@ import "./App.scss";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Switch>
         <Route path="/" exact>
           <Homepage3Dark />
         </Route>
         <Route path="/blogs" component={Bloglist} exact />
         <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
-      </Routes>
+      </Switch>
     </BrowserRouter>
   );
 }
