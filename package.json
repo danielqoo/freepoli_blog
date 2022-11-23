@@ -1,6 +1,6 @@
 {
   "name": "freepoli_web",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -51,5 +51,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "web_freepoli  \r clink -> [link](https://freepoli.com)",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielqoo/react_based.git"
+  },
+  "author": "qoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielqoo/react_based/issues"
+  },
+  "homepage": "https://github.com/danielqoo/react_based#readme"
 }
