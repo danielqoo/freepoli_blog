@@ -78,7 +78,8 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  여러분들의 소중한 의견을 기다리고 있습니다. {" "}
+                  여러분들의 소중한 의견을 기다립니다. {" "}
+                  <br/>
                   <a href="mailto:biz@freepoli.com" target={{target:"_blank"}}>biz@freepoli.com</a><img alt="robot" src="/images/waving-hand-emoji.svg" resizeMode="stretch" style={{width:'10%'}}/>
                 </p>
               </ScrollAnimation>
