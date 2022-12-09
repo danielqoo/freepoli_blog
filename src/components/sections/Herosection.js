@@ -24,15 +24,15 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/thinking-face.svg" alt="face_001" className="mb-4" />
+          <img src="images/bird_emoji_SoftBank.png" alt="face_001" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">프리폴리 (FREEPOLI)</h1>
+          <h1 className="mb-2 mt-0">프리폴리 (FreePoli)</h1>
           <p>
             우리에겐&nbsp;
             <Typed
               strings={['마음껏 실수하고, 새롭게 상상할 용기가',
-                        '나의 취향과, 당신의 취향에 대한 존중이',
-                        '소란스런 세상 속에, 소신있는 소통이',
+                        '안전하면서 느슨한 공간이',
+                        '함께 성장할 기회가',
                       ]}
               typeSpeed={70}
               backSpeed={40}
@@ -43,11 +43,11 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
 
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <a href="http://qr.kakao.com/talk/X24Wk3Z53RVEseHk0IYIDnnqpBU-" target={{target:"_blank"}}>
                 <i className="xi-kakaotalk"></i>
               </a>
-            </li>
+            </li> */}
             <li className="list-inline-item">
               <a href="https://www.instagram.com/srt__crew/" target={{target:"_blank"}}>
                 <i className="xi-instagram"></i>

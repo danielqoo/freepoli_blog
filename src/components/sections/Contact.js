@@ -60,7 +60,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <Pagetitle title="건강한 자신감, 함께 만드는 선한 영향력" />
+        <Pagetitle title="함께 만드는 선한 영향력" />
 
         <div className="row">
           <div className="col-md-4">
@@ -78,8 +78,8 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  폼 양식이 마음이 들지 않나요? 직접{" "}
-                  <a href="mailto:biz@freepoli.com" target={{target:"_blank"}}>email</a>로 보내주셔도 됩니다. <img alt="robot" src="/images/waving-hand-emoji.svg" resizeMode="stretch" style={{width:'10%'}}/>
+                  여러분들의 소중한 의견을 기다리고 있습니다. {" "}
+                  <a href="mailto:biz@freepoli.com" target={{target:"_blank"}}>biz@freepoli.com</a><img alt="robot" src="/images/waving-hand-emoji.svg" resizeMode="stretch" style={{width:'10%'}}/>
                 </p>
               </ScrollAnimation>
             </div>

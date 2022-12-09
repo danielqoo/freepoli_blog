@@ -57,7 +57,7 @@ section.home {
 
     p {
       color: #fff;
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: 0;
     }
 
@@ -226,12 +226,12 @@ section.home {
 .skill-item {
   .skill-info {
     h4 {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 500;
     }
 
     span {
-      font-size: 14px;
+      font-size: 18px;
     }
   }
 }
@@ -373,7 +373,7 @@ section.home {
       color: #5e5c7f;
       cursor: pointer;
       font-family: $fonthead;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
       position: relative;
       @include transition(0.3s);
@@ -530,11 +530,11 @@ select.portfolio-filter-mobile {
 
   .subtitle {
     color: #8b88b1;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -579,7 +579,7 @@ select.portfolio-filter-mobile {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     padding: 2px 8px;
     position: absolute;
     left: 20px;
@@ -604,7 +604,7 @@ select.portfolio-filter-mobile {
   }
 
   .meta {
-    font-size: 14px;
+    font-size: 18px;
     color: #8b88b1;
 
     li:not(:last-child) {
@@ -1126,9 +1126,9 @@ select.portfolio-filter-mobile {
 
 .mouse-wrapper {
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   display: block;
-  max-width: 100px;
+  max-width: 110px;
   margin: auto;
   text-align: center;
   cursor: pointer;
@@ -1148,9 +1148,9 @@ select.portfolio-filter-mobile {
   display: block;
   margin: auto;
   margin-top: 10px;
-  height: 26px;
+  height: 32px;
   position: relative;
-  width: 20px;
+  width: 24px;
 
   .wheel {
     background: #fff;

@@ -18,9 +18,9 @@ function BlogDetails(props) {
       });
   }, [content, blogFile]);
 
-  const disqusShortname = "freepoli"; //found in your Disqus.com dashboard
+  const disqusShortname = "FreePoli"; //found in your Disqus.com dashboard
   const disqusConfig = {
-    url: "https://danielqoo.github.io", //Homepage link of this site.
+    url: "https://freepoli.com", //Homepage link of this site.
     identifier: blogId,
     title: blogFile,
   };
@@ -44,7 +44,7 @@ function BlogDetails(props) {
   return (
     <>
       <Header
-        logoSource="/images/face_logo.png"
+        logoSource="/images/web_logo_nest_egg.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />

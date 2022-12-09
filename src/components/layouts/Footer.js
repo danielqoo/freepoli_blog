@@ -5,7 +5,7 @@ function Footer({ light }) {
     <footer className={light ? "footer light" : "footer"}>
       <div className="container">
         <span className="copyright">
-          &copy; {new Date().getFullYear()} FREEPOLI. All rights reserved.
+          &copy; {new Date().getFullYear()} FreePoli. All rights reserved.
         </span>
       </div>
     </footer>

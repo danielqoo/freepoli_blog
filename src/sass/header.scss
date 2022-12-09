@@ -466,14 +466,14 @@ header.mobile-header-2 {
 
 .desktop-header-3 {
 	background: $colordark;
-	padding: 20px 0;
+	padding: 15px 0;
 	border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 
 	.site-logo {
 		display: inline-block;
 
 		img {
-			max-height: 2.5em;
+			max-height: 2.9em;
 		}
 	}
 
@@ -493,7 +493,7 @@ header.mobile-header-2 {
 
 
 	.nav-link {
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 700;
 		padding: 0;
 		cursor: pointer;
