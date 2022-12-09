@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-scroll";
+//import { Link } from "react-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Service from "../elements/Service";
 
@@ -7,29 +7,29 @@ const servicesData = [
   {
     id: 1,
     icon: "images/speaker-high-volume.svg",
-    title: "취향 • 나만의 이슈 찾기",
+    title: "공동체와 낯선 질문",
     content:
-      "청년들이 자신의 취향과 나만의 이슈를 탐색하여 스스로 선택 • 발언할 수 있는 공론장",
+      "경쟁이 아닌 협력을 기반으로, 시장에서의 개인이 아닌 공동체의 구성원으로서, 낯선 질문을 던지고자 합니다.",
     color: "#6C6CE5",
     contentColor: "light",
   },
   {
     id: 2,
-    icon: "images/party-popper.svg",
-    title: "놀이와 활동 중심의 커뮤니티",
+    icon: "images/add-user-group-woman-man.svg",
+    title: "안전하고 느슨한 제 3의 공간",
     content:
-      "자유로우면서도 안전한 환경에서 편안하게 이야기하고, 일상에서 놀이와 활동으로 즐길 수 있는 살롱",
-    color: "#F9D74C",
-    contentColor: "dark",
+      "'내 삶이 왜 이렇지?' '존재의 중심은 무엇이어야 할까?' '우리에게 마음이란 왜 있는걸까?'와 같은 질문을 마음껏 할 수 있는 안전하고도 느슨한 제 3의 공간을 꿈꿉니다.",
+    color: "#F97B8B",
+    contentColor: "light",
   },
   {
     id: 3,
-    icon: "images/add-user-group-woman-man.svg",
-    title: "합리적인 가격과 느슨한 연대감",
+    icon: "images/party-popper.svg",
+    title: "모두를 위한 내밀한 제품과 서비스",
     content:
-      "관심사 기반, 지역 중심의 소규모 모임 활동으로 다양한 이슈들에 대한 담론이 살아있어 청년이 스스로 만들어가는 그룹",
-    color: "#F97B8B",
-    contentColor: "light",
+      "앱 서비스, 자조모임, 워크숍, 출판물 등을 기획합니다.",
+    color: "#F9D74C",
+    contentColor: "dark",
   },
 ];
 
@@ -37,7 +37,7 @@ function Services() {
   return (
     <section id="services">
       <div className="container">
-        <Pagetitle title="팀 미션" />
+        <Pagetitle title="팀 소개" />
         <div className="row fix-spacing">
           {servicesData.map((service) => (
             <div className="col-md-4" key={service.id}>

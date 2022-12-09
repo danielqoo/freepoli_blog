@@ -1,7 +1,8 @@
 import React from "react";
 
 function Pricebox({ priceboxItem }) {
-  const { icon, title, content, price, badge, best } = priceboxItem;
+  // const { icon, title, content, price, badge, best } = priceboxItem;
+  const { icon, title, content, badge, best } = priceboxItem;
   return (
     <div
       className={
@@ -17,13 +18,13 @@ function Pricebox({ priceboxItem }) {
         <p key={singleContent.id}>{singleContent.text}</p>
       ))}
       
-      <a href="https://srt.seoul.kr/" className="btn btn-default" target="_blank" rel="noreferrer">
+      {/* <a href="blogs/blog-details/1/we_need_a_designer" className="btn btn-default">
         <h3 className="price">
           <span>중요도 </span>
           {price}
           <em>%</em>
         </h3>
-      </a>
+      </a> */}
     </div>
   );
 }

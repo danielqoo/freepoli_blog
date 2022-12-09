@@ -85,7 +85,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="section-experiences"
+                  to="section-blogs"
                   spy={true}
                   smooth={true}
                   duration={500}

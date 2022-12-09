@@ -5,16 +5,16 @@ import Pricebox from "../elements/Pricebox";
 const priceboxData = [
   {
     id: 1,
-    title: "자유롭게 춤춰요",
-    icon: "images/dancing-girl.svg",
+    title: "마음의 건강과 안녕",
+    icon: "images/wind-chime.svg",
     content: [
       {
         id: 0,
-        text: "부정적인 생각들과 다른 사람들의 시선으로부터 해방되어, 나를 믿고 완전한 자유를 느껴요.",
+        text: "부정적인 감정을 글로써 표현하고 해소하며 성숙한 통찰과 내면의 힘을 기릅니다.",
       },
       {
         id: 1,
-        text: "각자의 개성을 살리면서, 진행 상황을 몸으로 기억하며, 동선과 안무의 조화를 이루어요. ",
+        text: "죽음, 상실, 이별, 실패 등을 터부시하지 않고 삶의 일부로 긍정하는 인식을 개발합니다.",
       },
     ],
     price: 40,
@@ -23,16 +23,16 @@ const priceboxData = [
   },
   {
     id: 2,
-    title: "근거를 제시해요",
-    icon: "images/bar-chart-emoji.svg",
+    title: "새로운 삶의 서사",
+    icon: "images/open-book-emoji.svg",
     content: [
       {
         id: 0,
-        text: "숫자에는 무엇에 대해서, 어떤 과정을 거쳐서, 어떻게 생각하고 있느냐가 함축되어 있어요.",
+        text: "비슷한 경험을 공유한 이들과의 연대감 형성 및 더 나은 삶을 모색하는 기회룰 제공합니다.",
       },
       {
         id: 1,
-        text: "데이터를 요구하고, 숫자를 의심하고, 분석적 지식을 바탕으로 함께 의사 결정을 해요.",
+        text: "애도를 주제로 한 공적인 대화의 장을 마련합니다.",
       },
     ],
     price: 30,
@@ -41,16 +41,16 @@ const priceboxData = [
   },
   {
     id: 3,
-    title: "경청하고 공감해요",
-    icon: "images/people-hugging-emoji.svg",
+    title: "소셜벤처로의 성장",
+    icon: "images/rainbow-emoji.svg",
     content: [
       { 
         id: 0, 
-        text: "어깨에 힘을 빼고 스르르, 정서적으로 안정된 팀원들끼리 서로를 경청해요." 
+        text: "자유롭고 편안하게 표현하는 애도 문화를 형성합니다." 
       },
       { 
         id: 1, 
-        text: "함께 나누고, 많이 웃고, 남을 돕는 문화 속에서 모두가 쉽게 공감할 수 있도록 도와주는 모더레이터가 되어요." 
+        text: "공동체 회복으로 사회 통합에 기여합니다." 
       },
     ],
     price: 30,
@@ -63,7 +63,7 @@ function Pricing() {
   return (
     <section id="prices">
       <div className="container">
-        <Pagetitle title="프리폴리 팀이 일하는 방식" />
+        <Pagetitle title="프리폴리가 달성하려는 사회적 가치" />
         <div className="row align-items-center">
           {priceboxData.map((pricebox) => (
             <div key={pricebox.id} className="col-md-4">

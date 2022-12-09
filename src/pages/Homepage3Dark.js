@@ -5,13 +5,13 @@ import Header3 from "../components/layouts/Header3";
 import Footer from "../components/layouts/Footer";
 import About from "../components/sections/About";
 import Blogs from "../components/sections/Blogs";
-// import BrandlogosDark from "../components/sections/BrandlogosDark";
+//import BrandlogosDark from "../components/sections/BrandlogosDark";
 import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
 import Pricing from "../components/sections/Pricing";
 import Services from "../components/sections/Services";
-// import Testimonials from "../components/sections/Testimonials";
+import Testimonials from "../components/sections/Testimonials";
 import Works from "../components/sections/Works";
 
 function Homepage3() {
@@ -34,6 +34,9 @@ function Homepage3() {
         <Element name="section-experiences">
           <Experiences />
         </Element>
+        <Element name="section-testimoninal">
+          <Testimonials />
+        </Element>
         <Element name="section-pricing">
           <Pricing />
         </Element>
@@ -43,10 +46,7 @@ function Homepage3() {
         <Element name="section-works">
           <Works />
         </Element>
-        {/* <Element name="section-testimoninal">
-          <Testimonials />
-        </Element>
-        <Element name="section-brandlogos">
+        {/* <Element name="section-brandlogos">
           <BrandlogosDark />
         </Element> */}
         <Element name="section-contact">

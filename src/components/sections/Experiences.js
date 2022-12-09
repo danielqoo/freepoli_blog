@@ -43,6 +43,13 @@ const experienceData = [
     content:
       "'서울청년센터 관악오랑' 클래쓰랑 사업에 선정. 청년 대상 마음건강 글쓰기 수업 기획 및 진행.",
   },
+  {
+    id: 3,
+    title: "신개념 커뮤니티 플랫폼 AEDO(애도)",
+    years: "2022.12 - 현재",
+    content:
+      "초기 개발·설계 단계 / 앱 서비스, 자조 모임 커뮤니티, 키트 및 제작 및 판매",
+  },
 ];
 
 function Experiences() {

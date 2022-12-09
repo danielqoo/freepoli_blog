@@ -31,19 +31,19 @@ const aboutContent2 = {
 const progressData1 = [
   {
     id: 1,
-    title: "기획력, 창의성",
+    title: "콘텐츠 기획, 작문 능력",
     percantage: 95,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "통찰력(예측력), 영업력(정보력)",
+    title: "커뮤니티 설계, 운영 능력",
     percantage: 85,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "설득력, 커뮤니케이션 능력",
+    title: "영업력, 정보력, 실행력",
     percantage: 80,
     progressColor: "#6C6CE5",
   },
@@ -52,19 +52,19 @@ const progressData1 = [
 const progressData2 = [
   {
     id: 1,
-    title: "웹 개발 능력 (Python, JS, React, jQuery, NginX, AWS)",
+    title: "웹 & 앱 개발 (Python, JS, React, React Native, Flutter, AWS, GCP)",
     percantage: 80,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "데이터 분석 (Pandas, Tensorflow, Excel)",
+    title: "데이터 분석 (Pandas, Numpy, PyTorch, Tensorflow, R, SQL, SPSS, Excel)",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
   {
     id: 3,
-    title: "경영 관리 능력 (회계, 인사, 총무)",
+    title: "경영 관리 능력 (회계, 인사, 총무, 행정)",
     percantage: 70,
     progressColor: "#FF4C60",
   },
@@ -118,11 +118,6 @@ function About() {
               <div className="row">
                 <div className="col-md-6">
                   <p>{aboutContent1.content}</p>
-                  {/* <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
-                      팀 소개서
-                    </a>
-                  </div> */}
                   <div
                     className="spacer d-md-none d-lg-none"
                     data-height="30"
@@ -153,6 +148,11 @@ function About() {
               <img src={aboutContent2.avatarImage} alt={aboutContent2.name} resizeMode="stretch" style={{width:'70%'}}/>
               <p/>
               <p>강남 구민이자 1인 가구 청년<br/>구본협</p>
+            <div className="mt-3">
+              <a href="https://qoo900.com/" className="btn btn-default" rel="noreferrer" target="_blank">
+                개인 홈페이지
+              </a>
+            </div>
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>
@@ -162,11 +162,6 @@ function About() {
               <div className="row">
                 <div className="col-md-6">
                   <p>{aboutContent2.content}</p>
-                  {/* <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
-                      팀 소개서
-                    </a>
-                  </div> */}
                   <div
                     className="spacer d-md-none d-lg-none"
                     data-height="30"
