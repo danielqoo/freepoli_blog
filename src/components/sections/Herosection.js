@@ -48,11 +48,11 @@ function Herosection(props) {
                 <i className="xi-kakaotalk"></i>
               </a>
             </li> */}
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <a href="https://www.instagram.com/srt__crew/" target={{target:"_blank"}}>
                 <i className="xi-instagram"></i>
               </a>
-            </li>
+            </li> */}
             {/* <li className="list-inline-item">
               <a href="!#" target={{target:"_blank"}}>
                 <i className="xi-twitter"></i>
