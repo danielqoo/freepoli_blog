@@ -18,7 +18,7 @@ function Homepage3() {
   document.body.classList.add("dark");
   return (
     <>
-      <Header3 logoSource="/images/web_logo_nest_egg.png" />
+      <Header3 logoSource="/images/web_logo_nest_egg_gif.gif" />
       <main className="content-3">
         <Element name="section-home">
           <ReactCursorPosition>

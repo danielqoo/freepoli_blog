@@ -52,7 +52,7 @@ function Bloglist() {
   return (
     <>
       <Header
-        logoSource="/images/logo.svg"
+        logoSource="/images/web_logo_nest_egg_gif.gif"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />

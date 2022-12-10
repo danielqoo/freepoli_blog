@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import Disqus from "disqus-react";
-import Header from "../components/layouts/Header3";
+import Header from "../components/layouts/Header3_BlogDetails";
 
 function BlogDetails(props) {
   const [content, setContent] = useState("");
@@ -44,7 +44,7 @@ function BlogDetails(props) {
   return (
     <>
       <Header
-        logoSource="/images/web_logo_nest_egg.png"
+        logoSource="/images/web_logo_nest_egg_gif.gif"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />

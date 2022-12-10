@@ -5,10 +5,10 @@ import Logo from "../elements/Logo";
 function Header3({ light, logoSource, bootstrapNav }) {
   const [toggleNavbar, setToggleNavbar] = useState(false);
 
-  const handleMobilenav = (e) => {
-    e.preventDefault();
-    setToggleNavbar(!toggleNavbar);
-  };
+  // const handleMobilenav = (e) => {
+  //   e.preventDefault();
+  //   setToggleNavbar(!toggleNavbar);
+  // };
 
   document.addEventListener("click", function (e) {
     if (e.target.closest(".content-3")) {
@@ -36,7 +36,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
         >
         <Logo logoSource={logoSource} bootstrapNav={bootstrapNav}/>
         </Link>
-          <button
+          {/* <button
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -47,7 +47,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
             onClick={handleMobilenav}
           >
             <span className="navbar-toggler-icon"></span>
-          </button>
+          </button> */}
           <div
             className={
               toggleNavbar
@@ -56,7 +56,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
             }
             id="navbarNavDropdown"
           >
-            <ul className="navbar-nav ml-auto scrollspy">
+            {/* <ul className="navbar-nav ml-auto scrollspy">
               <li className="nav-item">
                 <Link
                   activeClass="active"
@@ -105,7 +105,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   성과
                 </Link>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link
                   activeClass="active"
                   className="nav-link"
@@ -116,7 +116,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 >
                   Blog
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <Link
                   activeClass="active"
@@ -129,7 +129,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   문의
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </nav>
       </div>

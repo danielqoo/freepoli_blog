@@ -63,11 +63,11 @@ function Herosection(props) {
                 <i className="xi-naver"></i>
               </a>
             </li> */}
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <a href="https://srt.seoul.kr/" target={{target:"_blank"}}>
                 <i className="xi-home"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <div className="mt-4">

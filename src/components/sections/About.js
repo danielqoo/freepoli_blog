@@ -10,11 +10,11 @@ const aboutContent1 = {
   content:
     [ <img alt="robot" src="/images/rocket-emji.svg" resizeMode="stretch" style={{width:'10%'}}/>,
       <p>이런 아이디어 어때요?</p>,
-      "문학을 전공하고 기자와 카피라이터 등으로 활동하다 최근까지 기업의 언론홍보팀에서 근무함.",
+      "문학을 전공하고 기자로 활동하다 최근까지 기업의 언론홍보팀에서 근무함.",
       " ",
       "예술과 문화를 기반으로 한 기획과 콘텐츠가 주된 관심사이며, 호기심이 많아 새롭게 일 벌리기를 좋아함.",
       " ",
-      "겁이 많지만 생각보다 끈질기고, 귀여운 것에 매우 약함."]
+      "무언가에 한 번 빠지면 과몰입하고, 귀여운 것에 약함."]
 };
 
 const aboutContent2 = {
@@ -25,7 +25,7 @@ const aboutContent2 = {
       <p>성공 확률은요?</p>,
       "철학과 심리학을 전공한 뒤 수년간 IT업계의 스타트업에서 경영지원 업무를 맡으며 조직의 체계적인 운영을 익히고 다양한 사업들을 관리함.",
       " ",
-      "데이터와 SW 개발에 능숙해서 웬만한 사내 서비스는 혼자서 만들었다는데... (기술지원 기다릴 바에 내가 하고 만다?)",
+      "데이터와 SW 개발에 소질이 있어 웬만한 사내 서비스는 혼자서 만들었다는데... (기술지원 기다릴 바에 내가 하고 만다?)",
       " ",
       "대표가 벌린 일을 수습하는 것에 능숙함."]
 };
@@ -111,6 +111,11 @@ function About() {
               <img src={aboutContent1.avatarImage} alt={aboutContent1.name} resizeMode="stretch" style={{width:'70%'}}/>
               <p/>
               <p>송파 구민이자 1인 가구 청년<br/>윤효정</p>
+              <div className="mt-3">
+              <a href="https://srt.seoul.kr/" className="btn btn-default" rel="noreferrer" target="_blank">
+                개인 홈페이지
+              </a>
+            </div>
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>
