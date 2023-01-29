@@ -49,7 +49,7 @@ function Herosection(props) {
               </a>
             </li> */}
             <li className="list-inline-item">
-              <a href="https://www.instagram.com/srt__crew/" target={{target:"_blank"}}>
+              <a href="https://www.instagram.com/freepoli.kr/" target={{target:"_blank"}}>
                 <i className="xi-instagram"></i>
               </a>
             </li>
@@ -63,11 +63,11 @@ function Herosection(props) {
                 <i className="xi-naver"></i>
               </a>
             </li> */}
-            {/* <li className="list-inline-item">
-              <a href="https://srt.seoul.kr/" target={{target:"_blank"}}>
+            <li className="list-inline-item">
+              <a href="https://freepoli.kr/" target={{target:"_blank"}}>
                 <i className="xi-home"></i>
               </a>
-            </li> */}
+            </li>
           </ul>
 
           <div className="mt-4">
@@ -78,7 +78,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              팀 프리폴리에게 연락하기
+              프리폴리 팀에게 연락하기
             </Link>
           </div>
         </div>

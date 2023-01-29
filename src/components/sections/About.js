@@ -112,8 +112,8 @@ function About() {
               <p/>
               <p>송파 구민이자 1인 가구 청년<br/>윤효정</p>
               <div className="mt-3">
-              <a href="https://srt.seoul.kr/" className="btn btn-default" rel="noreferrer" target="_blank">
-                개인 홈페이지
+              <a href="https://www.instagram.com/oh.rora/" className="btn btn-default-insta" rel="noreferrer" target="_blank">
+                Instagram
               </a>
             </div>
             </div>
@@ -156,8 +156,8 @@ function About() {
               <p/>
               <p>강남 구민이자 1인 가구 청년<br/>구본협</p>
             <div className="mt-3">
-              <a href="https://qoo900.com/" className="btn btn-default" rel="noreferrer" target="_blank">
-                개인 홈페이지
+              <a href="https://qoo900.com/" className="btn btn-default-homepage" rel="noreferrer" target="_blank">
+                Homepage
               </a>
             </div>
             </div>
